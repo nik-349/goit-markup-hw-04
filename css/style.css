@@ -130,8 +130,6 @@ img {
 }
 
 .section-profile {
-  /*width: 1600px;
-  height: 600px;*/
   padding-top: 94px;
   padding-bottom: 94p;
 }
@@ -148,7 +146,7 @@ img {
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
-  background-image: url(/image/vector/antenna.svg);
+  background-image: url(./image/vector/antenna.svg)
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 30px;
@@ -160,7 +158,7 @@ img {
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
-  background-image: url(/image/vector/clock.svg);
+  background-image: url(./image/vector/clock.svg);
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 30px;
@@ -172,7 +170,7 @@ img {
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
-  background-image: url(/image/vector/diagram.svg);
+  background-image: url(./image/vector/diagram.svg);
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 30px;
@@ -184,7 +182,7 @@ img {
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
-  background-image: url(/image/vector/astronaut.svg);
+  background-image: url(./image/vector/astronaut.svg);
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 30px;
@@ -540,18 +538,14 @@ img {
 }
 
 .footer-information {
-  /*width: 1600px;
-  height: 600px;*/
   background-color: rgba(47, 48, 58, 0.4);
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(/image/bg/background.jpg);
+    url(./image/bg/background.jpg);
 }
 .footer-information-two {
-  /*width: 1600px;
-  height: 252px;*/
   background-color: #2f303a;
 }
 .address {
