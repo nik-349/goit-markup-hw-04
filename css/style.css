@@ -79,16 +79,20 @@ img {
 .phone-svg-two {
   fill: #757575;
 }
-.heder-tel-link:hover .phone-svg-two {
+.heder-tel-link:hover .phone-svg-two,
+.heder-tel-link:focus .phone-svg-two {
   fill: #2196f3;
 }
-.heder-tel-link:hover {
+.heder-tel-link:hover,
+.heder-tel-link:focus {
   color: #2196f3;
 }
-.heder-mail-link:hover {
+.heder-mail-link:hover,
+.heder-mail-link:focus {
   color: #2196f3;
 }
-.heder-mail-link:hover .phone-svg {
+.heder-mail-link:hover .phone-svg,
+.heder-mail-link:focus .phone-svg {
   fill: #2196f3;
 }
 /*========================*/
@@ -257,21 +261,24 @@ img {
   margin-top: 10px;
 }
 /*=======staff color========*/
-.social-list-link:hover {
+.social-list-link:hover,
+.social-list-link:focus {
   background-color: #2196f3;
 }
-.social-list-link:hover .social-icon-svg {
+.social-list-link:hover .social-icon-svg,
+.social-list-link:focus .social-icon-svg {
   fill: #ffffff;
 }
 .social-icon-svg {
   fill: #afb1b8;
 }
 /*============end==============*/
-.size-list:hover,
-.size-list:focus {
+
+.list-footer-link:hover,
+.list-footer-link:focus {
   background-color: #2196f3;
-  cursor: pointer;
 }
+
 .footer-icon-svg {
   fill: #ffffff;
 }
@@ -325,15 +332,18 @@ img {
   fill: #afb1b8;
 }
 
-.social-permanent:hover {
+.social-permanent:hover,
+.social-permanent:focus {
   border: 1px solid #2196f3;
 }
 
-.social-permanent:hover .permanent-svg {
+.social-permanent:hover .permanent-svg,
+.social-permanent:focus .permanent-svg {
   fill: #2196f3;
 }
+
 /*==============000==============*/
-.size-list {
+.list-footer-link {
   display: flex;
   align-items: center;
   justify-content: center;
